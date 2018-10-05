@@ -6,6 +6,10 @@ body {
 	margin-right: 7%;
 }
 
+h1 {
+    color: #192A51;
+    font-size: 2.5em;
+}
 a, p {
     color: #6F73D2;
 }
@@ -27,7 +31,7 @@ header .menu {
 
 header .menu ul {
     list-style-type: none;
-    margin-left: 150px;
+    margin-left: 20px;
     margin-bottom: 100px;
     padding: 0;
     overflow: hidden;
@@ -99,16 +103,47 @@ a:hover, .res-dropCont:hover .res-drop {
     margin-left: 10px;
 }
 
+footer {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+footer #icon {
+    display: inline-block;
+    height: 80px;
+    weight: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+
+footer #icon:hover {
+    height: 90px;
+    weight: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer #iconA:hover {
+    background-color: #A6D9F7;
+}
+
+footer .footerMenu {
+    display: inline-block;
+    margin-left: 220px;
+}
+
 footer .footerMenu li a {
     display: block;
     text-align: left;
     padding: 0px;
     text-decoration: none;
     font-size: 17px;
+    transition: all 0.5s;
 }
 
 footer .footerMenu li a:hover {
     background-color: #A6D9F7;
     font-size: 20px;
-    transiction: 1s;
 }
