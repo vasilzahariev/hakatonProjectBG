@@ -135,6 +135,15 @@ a:hover, .res-dropCont:hover .res-drop {
   margin-left: 80px;
 }
 
+.linksV{
+  color: #2196F3;
+  font-size: 20px;
+}
+
+.linksV:hover{
+  background-color: white;
+}
+
 /*footer*/
 
 footer {
